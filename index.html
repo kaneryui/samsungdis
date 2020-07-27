@@ -6,6 +6,15 @@
         <link rel="stylesheet" type="text/css" href="css/default.css">
         <link rel="stylesheet" type="text/css" href="css/include.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript">
+			//모바일 단말기 확인하여 홈페이지 이동
+			var ua = window.navigator.userAgent.toLowerCase();
+			if ( /iphone/.test(ua) || /android/.test(ua) || /opera/.test(ua) || /bada/.test(ua) ) {
+			document.location.replace('m/index.html');  //홈페이지 경로
+			}
+		</script>
     </head>
     <body>
     <!--전체시작-->
