@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+#container{}
+
+/*메인슬라이더*/
+.main_slider{
+    position:relative;
+    overflow:hidden;
+    height:600px;
+}
+.main_slider img{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
+
+/*왼쪽버튼*/
+.main_lbtn{
+    position:absolute;
+    text-indent:-9999px;
+    left:50%;
+    bottom:30px;
+    margin-left:-600px;
+}
+.main_lbtn li{
+    float:left;
+    background:url(../images/main/blet_visual.png) no-repeat;
+    width:16px;
+    height:16px;
+    margin-right:5px;
+}
+.main_lbtn li:first-child{
+    background-position:0 -16px;
+}
+.main_lbtn li a{
+    display:block;
+}
+
+/*오른쪽버튼*/
+.main_rbtn{
+    position:absolute;
+    right:50%;
+    bottom:0;
+    margin-right:-600px;
+    text-indent:-9999px;
+}
+.main_rbtn li{
+    float:left;
+    background:url(../images/main/btn_visual_cnt.png) no-repeat;
+    width:46px;
+    height:46px;
+    margin-left:1px;
+}
+.main_rbtn li:nth-child(2){
+    background-position:-46px 0;
+}
+.main_rbtn li:nth-child(3){
+    background-position:-92px 0;
+}
+.main_rbtn li a{
+    display:block;
+    height:100%;
+}
+
+/*메인 콘텐츠01*/
+
+.main_con01{
+    background-color:steelblue;
+    font-size:11px;
+    color:white;
+}
+.main_con01 ul{}
+.main_con01 ul li{
+    float:left;
+    padding:60px 0;
+    margin-right:20px;
+}
+.main_con01 ul li h3{
+    font-size:25px;
+    font-weight:lighter;
+    margin-bottom:10px;
+}
+.main_con01 ul li p{}
+.main_con01 ul li img{
+    margin-bottom:10px;
+}
+
+/*메인 콘텐츠02*/
+
+.main_con02{
+    text-align:center;
+    background:url(../images/main/brandSite_bg.png) no-repeat;
+    height:610px;
+}
+.main_con02 ul{}
+.main_con02 ul h3{
+    padding:70px 0;
+}
+.main_con02 ul li{
+    float:left;
+}
+.main_con02 ul li a{}
+.main_con02 ul li p{
+    font-weight:bold;
+    margin:20px 0;
+}
+.main_con02 li p span{
+    font-weight:bolder;
+    font-size:14px;
+}
+.main_con02 ul li img{
+    margin-right:20px
+}
+.view_btn{
+    color:white;
+    width:120px;
+    height:30px;
+    line-height:30px;
+    background-color:darkblue;
+    display:inline-block;
+    border-radius:60px;
+    margin-top:20px;
+    letter-spacing:3px;
+  
+}
+
+/*메인콘텐츠03*/
+
+.main_con03{
+    padding:30px 0;
+}
+.main_con03 h1{
+    text-align:center;
+    padding:30px 0;
+}
+
+.brand_info{}
+.brand_info li{
+    width:376px;
+    float:left;
+    margin-right:36px;
+    box-shadow:1px 1px 10px rgba(0,0,0,0.3)
+}
+.info{
+    padding:20px;
+}
+.brand_info li:last-child{
+    margin-right:0;
+}
+.brand_info li h3{}
+.brand_info li img{}
+.brand_info li p{
+    padding-bottom:20px;
+    
+}
+
+.brand_info .view_btn{
+    text-align:center;
+    width:110px;
+    background-color:skyblue;
+}

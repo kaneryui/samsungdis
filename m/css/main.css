@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+#container{}
+
+/*메인슬라이더*/
+
+.main_slider{
+    position:relative;
+}
+.main_slider img{
+    display: block;
+    width:100%;
+}
+
+.slider_btn{
+    position:absolute;
+    text-indent:-9999px;
+}
+.slider_btn li{
+    float:left;
+}
+.slider_btn li a{
+    display:block;
+}
+
+.left_btn{ 
+    left:10px;
+    bottom:10px;
+}
+.left_btn li{
+    background:url(../images/main/blet_visual.png) no-repeat;
+    width:16px;
+    height:16px;
+    margin-right:2px;
+    
+}
+.left_btn li:first-child{
+    background:url(../images/main/blet_visual.png) no-repeat left bottom ;
+}
+
+.right_btn{
+    right:10px;
+    bottom:10px;
+}
+.right_btn li{
+    background:url(../images/main/btn_visual_cnt.png) no-repeat;
+    width:45px;
+    height:45px;
+    margin-left:1px;
+}
+.right_btn li:nth-child(2){
+    background:url(../images/main/btn_visual_cnt.png) -45px;
+}
+.right_btn li:last-child{
+    background:url(../images/main/btn_visual_cnt.png) -91px;
+}
+
+/*메인컨텐츠01*/
+
+.main_con01{}
+.main_con01 h2{
+    width:130px;
+    margin:20px auto;
+}
+.main_con01 h2 img{
+    width:100%
+}
+
+.con01{}
+.con01 li{
+    padding:5%;
+    background:url(../images/main/brandSite_img01.jpg) no-repeat center center;
+    background-size:cover;
+    margin-bottom:1px;
+    
+    
+}
+.con01 li:nth-child(2){
+    background-image:url(../images/main/brandSite_img02.jpg);
+}
+.con01 li:nth-child(3){
+    background-image:url(../images/main/brandSite_img03.jpg);
+}
+
+.con01 li h3{
+    padding-top:30%;
+    font-size:25px;
+    font-weight:500;
+}
+.con01 li p{}
+.con01 li a{
+    color:#fff;
+}
+/*메인컨텐츠02*/
+
+.main_con02{}
+.main_con02 img{
+    width:100%;
+    display: block;
+}
+.main_con02 li{
+    width:calc(50% - 1px);
+    float:left;
+    margin-right:2px;
+    margin-bottom:2px;
+}
+.main_con02 li:nth-child(2n){
+    margin-right:0;
+}
+
+.con02_list{
+    color:#fff;
+    padding:5%;
+    background-color:#1C97FE;
+}
+.con02_list h3{
+    font-size:15px;
+    padding-bottom:20px;
+}
+.con02_list p{
+    font-size:12px;
+}
+
+/*프로덕트뷰*/
+
+.main_con03{}
+.main_con03 h2{
+    text-align:center;
+    padding:20px 0;
+}
+.main_con03 h2 img{
+    width:150px;
+}
+
+.con03{
+    display: flex;
+    flex-flow:wrap;
+    font-size:11px;
+}
+.con03 .txt{
+    background:#F1F1F1;
+    padding:5%;
+    box-sizing: border-box;
+}
+.con03 li{
+    width:50%;
+}
+.con03 li a{}
+.con03 li a img{
+    width:100%;
+}
+.con03 li h4{
+    font-size:18px;
+    margin-bottom:20px;
+}
+.con03 li p{}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*헤더*/
+
+#header{}
+
+.h_top{
+    background:url(../images/common/bg_top.gif);
+    height:40px;
+}
+.h_top h1{
+    background:url(../images/main/logo.gif) no-repeat left center;
+    width:150px;
+    background-size: 100%;
+    text-indent:-9999px;
+    height:40px;
+    margin-left:10px;
+}
+.h_top h1 a{
+    display:block;
+}
+
+.panel{
+    width:40px;
+    height:40px;
+    position:absolute;
+    right:0;
+    top:0;
+    background:#10509D;
+    text-indent:-9999px;
+}
+.panel a{
+    padding:12px;
+    display: block;
+}
+.panel span, .panel a::before, .panel a::after{
+    content:"";
+    display:block;
+    width:20px;
+    height:2px;
+    background:#fff;
+    margin:0 auto;
+}
+.panel span{
+    margin:5px auto;
+}
+
+.gnb{
+    background:url(../images/common/bg_gnb.gif) ;
+    height:29px;
+}
+.gnb li{
+    float: left;
+    width:20%;
+    font-size:12px;    
+    text-align: center;
+    line-height:29px;
+    border-left:1px solid #595959;
+    border-right:1px solid #363636;
+    box-sizing: border-box;
+}
+.gnb li a{
+    color:#ccc;
+}
+
+
+/*푸터*/
+
+#footer{
+    background:url(../images/common/bg_footer_new.gif);
+    color:#fff;
+    font-size:10px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+#footer p{}
+#footer p span{
+    margin:0 3px;
+}
+.f_txt{
+    margin-bottom: 10px;
+}
+.f_btn{
+    font-size:12px;
+    display:inline-block;
+}
+.f_btn a{
+    color:#fff;
+    display: block;    
+    border:1px solid #fff;
+    border-radius:2px;
+    padding:4px;
+    margin-left: 20px;
+}
